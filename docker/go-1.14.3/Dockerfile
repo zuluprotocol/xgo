@@ -3,8 +3,7 @@
 #
 # Released under the MIT license.
 
-#FROM karalabe/xgo-base
-FROM docker.pkg.github.com/vegaprotocol/xgo/xgo-base:latest
+FROM vegaprotocol/xgo-base:latest
 
 MAINTAINER Péter Szilágyi <peterke@gmail.com>
 

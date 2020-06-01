@@ -3,6 +3,6 @@
 #
 # Released under the MIT license.
 
-FROM karalabe/xgo-1.13.4
+FROM vegaprotocol/xgo-1.13.11:latest
 
 MAINTAINER Péter Szilágyi <peterke@gmail.com>

@@ -1,4 +1,4 @@
-# Go cross compiler (xgo): Go 1.11.13
+# Go cross compiler (xgo): Go 1.12.17
 # Copyright (c) 2019 Péter Szilágyi. All rights reserved.
 #
 # Released under the MIT license.
@@ -8,9 +8,10 @@ FROM vegaprotocol/xgo-base:latest
 MAINTAINER Péter Szilágyi <peterke@gmail.com>
 
 # Configure the root Go distribution and bootstrap based on it
-ENV GO_VERSION 11113
+ENV GO_VERSION 11217
 
 RUN \
-  export ROOT_DIST=https://storage.googleapis.com/golang/go1.11.13.linux-amd64.tar.gz   && \
-  export ROOT_DIST_SHA=50fe8e13592f8cf22304b9c4adfc11849a2c3d281b1d7e09c924ae24874c6daa && \
+  export ROOT_DIST=https://storage.googleapis.com/golang/go1.12.17.linux-amd64.tar.gz   && \
+  export ROOT_DIST_SHA=a53dd476129d496047487bfd53d021dd17e0c96895865a0e7d0469ce3db8c8d2 && \
+  \
   $BOOTSTRAP_PURE
