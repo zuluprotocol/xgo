@@ -3,6 +3,4 @@
 #
 # Released under the MIT license.
 
-FROM vegaprotocol/xgo-1.13.12:latest
-
-MAINTAINER Péter Szilágyi <peterke@gmail.com>
+FROM vegaprotocol/xgo-1.13.14:latest
