@@ -3,7 +3,7 @@
 #
 # Released under the MIT license.
 
-FROM vegaprotocol/xgo-base:latest
+FROM vegaprotocol/xgo:base
 
 MAINTAINER Péter Szilágyi <peterke@gmail.com>
 
