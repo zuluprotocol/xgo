@@ -3,4 +3,4 @@
 #
 # Released under the MIT license.
 
-FROM vegaprotocol/xgo:1.16
+FROM vegaprotocol/xgo:1.16.2
